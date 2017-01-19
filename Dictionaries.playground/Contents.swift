@@ -70,3 +70,10 @@ let movies = [
 for (franchise, titles) in movies {
     print("There are \(titles.count) movies in the \(franchise) series")
 }
+
+for (franchise, titles) in movies {
+    print ("\(franchise) titles:")
+    for filmTitle in titles {
+        print ("\(filmTitle)")
+    }
+} // sickawesome nested for loops. 🙏🏻👏🙏🏻👏🙏🏻👏🙏🏻👏🙏🏻👏🙏🏻👏🙏🏻👏
